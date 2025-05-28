@@ -3,24 +3,34 @@ import React from 'react';
 import { useSession, signOut } from "next-auth/react";
 import Image from "next/image";
 import Link from "next/link";
+import MySkeleton from "@/UI/MySkeleton/MySkeleton";
 
 const Header = () => {
     const session = useSession();
 
     if (session.status === "loading") {
-        return <article>Loading...</article>
+        return (
+            <header className="fixed top-0 w-full backdrop-blur  z-50 font-[family-name:var(--font-geist-sans)]">
+                <div className="mx-auto px-4 py-3 grid grid-cols-2 items-center">
+                    <MySkeleton height={40} width={179} />
+
+
+                    <div className="flex justify-end items-center gap-5">
+                        <MySkeleton height={40} width={100} />
+                    </div>
+                </div>
+            </header>
+        )
     }
 
     return (
         <header className="fixed top-0 w-full backdrop-blur  z-50 font-[family-name:var(--font-geist-sans)]">
             <div className="mx-auto px-4 py-3 grid grid-cols-2 items-center">
-                {/* Left Side (Logo and Title) */}
                 <div className="flex items-center gap-3">
-                    <Image width={40} height={40} alt="Crypto Helper Logo" src="/bitcoin-logo.svg" />
-                    <h1 className="text-lg font-semibold">Crypto Helper</h1>
+                    <Image width={40} height={40} alt="Market Helper Logo" src="/bitcoin-logo.svg"/>
+                    <h1 className="text-lg font-semibold">Market Helper</h1>
                 </div>
 
-                {/* Right Side (Auth Buttons) */}
                 <div className="flex justify-end items-center gap-5">
                     {session.data ? (
                         <>
@@ -38,7 +48,7 @@ const Header = () => {
                             </Link>
 
                             <button
-                                onClick={() => signOut({ callbackUrl: '/' })}
+                                onClick={() => signOut({callbackUrl: '/'})}
                                 className="hover:text-yellow-400 transition-colors"
                                 aria-label="Sign out"
                             >

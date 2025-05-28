@@ -20,7 +20,7 @@ const Footer = () => {
                 </Link>
             </div>
             <div className={`flex justify-center items-center w-full`}>
-                <Link className={`${pathname === "/add-coin" && "text-yellow-400"} transition hover:text-yellow-600`}
+                <Link className={`${pathname.includes( "/add-coin") && "text-yellow-400"} transition hover:text-yellow-600`}
                       href={`/add-coin`}>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
                          stroke="currentColor" className="size-6">
@@ -30,7 +30,7 @@ const Footer = () => {
                 </Link>
             </div>
             <div className={`flex justify-center items-center w-full`}>
-                <Link className={`${pathname === "/dashboard" && "text-yellow-400"} transition hover:text-yellow-600`}
+                <Link className={`${pathname.includes("/dashboard") && "text-yellow-400"} transition hover:text-yellow-600`}
                       href={`/dashboard`}>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
                          stroke="currentColor" className="size-6">
@@ -40,7 +40,7 @@ const Footer = () => {
                 </Link>
             </div>
             <div className={`flex justify-center items-center w-full`}>
-                <Link className={`${pathname === "/user-assets" && "text-yellow-400"} transition hover:text-yellow-600`}
+                <Link className={`${pathname.includes("/user-assets") && "text-yellow-400"} transition hover:text-yellow-600`}
                       href={`/user-assets`}>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
                          stroke="currentColor" className="size-6">

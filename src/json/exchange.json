@@ -1,0 +1,176 @@
+{
+  "exchanges": [
+    {
+      "name": "Binance",
+      "website": "https://www.binance.com",
+      "founded": "2017",
+      "location": "Seychelles",
+      "features": [
+        "Spot trading",
+        "Futures trading",
+        "P2P marketplace",
+        "Launchpad",
+        "Staking"
+      ],
+      "fiat_supported": ["USD", "EUR", "UAH"],
+      "app_available": true
+    },
+    {
+      "name": "Coinbase",
+      "website": "https://www.coinbase.com",
+      "founded": "2012",
+      "location": "United States",
+      "features": [
+        "Beginner-friendly interface",
+        "Highly regulated in the US",
+        "Publicly traded company (NASDAQ: COIN)"
+      ],
+      "fiat_supported": ["USD", "EUR", "GBP"],
+      "app_available": true
+    },
+    {
+      "name": "Kraken",
+      "website": "https://www.kraken.com",
+      "founded": "2011",
+      "location": "United States",
+      "features": [
+        "High security",
+        "Margin and futures trading",
+        "Staking",
+        "Advanced trading tools"
+      ],
+      "fiat_supported": ["USD", "EUR", "GBP", "JPY", "CAD"],
+      "app_available": true
+    },
+    {
+      "name": "Bybit",
+      "website": "https://www.bybit.com",
+      "founded": "2018",
+      "location": "Dubai (HQ)",
+      "features": [
+        "Derivatives trading",
+        "Spot market",
+        "Launchpad",
+        "Copy trading",
+        "Web3 features"
+      ],
+      "fiat_supported": ["USD", "EUR", "TRY", "BRL"],
+      "app_available": true
+    },
+    {
+      "name": "OKX",
+      "website": "https://www.okx.com",
+      "founded": "2017",
+      "location": "Seychelles",
+      "features": [
+        "Spot and futures",
+        "DeFi hub",
+        "NFT marketplace",
+        "Web3 wallet"
+      ],
+      "fiat_supported": ["USD", "EUR", "GBP", "RUB"],
+      "app_available": true
+    },
+    {
+      "name": "KuCoin",
+      "website": "https://www.kucoin.com",
+      "founded": "2017",
+      "location": "Seychelles",
+      "features": [
+        "Wide variety of tokens",
+        "Spot and futures",
+        "Lending",
+        "Crypto earn",
+        "Launchpad"
+      ],
+      "fiat_supported": ["USD", "EUR"],
+      "app_available": true
+    },
+    {
+      "name": "Bitget",
+      "website": "https://www.bitget.com",
+      "founded": "2018",
+      "location": "Seychelles",
+      "features": [
+        "Copy trading",
+        "Spot and derivatives",
+        "Launchpad",
+        "Earn products"
+      ],
+      "fiat_supported": ["USD", "EUR", "RUB", "TRY"],
+      "app_available": true
+    },
+    {
+      "name": "Huobi",
+      "website": "https://www.huobi.com",
+      "founded": "2013",
+      "location": "Seychelles (formerly China)",
+      "features": [
+        "Spot and derivatives",
+        "Staking",
+        "OTC trading",
+        "Token listings"
+      ],
+      "fiat_supported": ["USD", "CNY"],
+      "app_available": true
+    },
+    {
+      "name": "MEXC",
+      "website": "https://www.mexc.com",
+      "founded": "2018",
+      "location": "Seychelles",
+      "features": [
+        "Wide altcoin variety",
+        "Spot and futures",
+        "Launchpad",
+        "Staking"
+      ],
+      "fiat_supported": ["USD", "EUR", "VND", "THB"],
+      "app_available": true
+    },
+    {
+      "name": "Gate.io",
+      "website": "https://www.gate.io",
+      "founded": "2013",
+      "location": "Cayman Islands",
+      "features": [
+        "Huge altcoin offering",
+        "Futures and margin",
+        "Startup launch",
+        "NFT marketplace"
+      ],
+      "fiat_supported": ["USD", "EUR", "CNY"],
+      "app_available": true
+    },
+    {
+      "name": "Bitfinex",
+      "website": "https://www.bitfinex.com",
+      "founded": "2012",
+      "location": "British Virgin Islands",
+      "features": [
+        "Advanced trading tools",
+        "Margin and lending",
+        "High liquidity",
+        "Support for institutional traders"
+      ],
+      "fiat_supported": ["USD", "EUR", "GBP", "JPY"],
+      "app_available": true
+    },
+    {
+      "name": "Telegram Wallet",
+      "website": "https://wallet.tg",
+      "founded": "2023",
+      "location": "Dubai, UAE",
+      "features": [
+        "Integration with Telegram",
+        "Support for cryptocurrencies (TON, USDT, and more)",
+        "Peer-to-peer transfers in chat",
+        "Simple and user-friendly interface",
+        "Support for Web3 assets"
+      ],
+      "fiat_supported": ["USD", "EUR"],
+      "app_available": true
+    }
+
+  ]
+}

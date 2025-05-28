@@ -3,8 +3,14 @@ export default function Home() {
 
     return (
         <div
-            className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-            <h4>Home page</h4>
+            className="py-20 px-4 flex flex-col gap-4 min-h-screen font-[family-name:var(--font-geist-sans)]">
+            <h1 className={`text-xl/2`}>Welcome to the Market Helper</h1>
+            <p className={`text-neutral-500`}>
+                We&apos;re so happy to have you here!
+                We&apos;re working on a helpful app for the market that lets you track your deals in real time, including your profits and losses.
+
+                We&apos;ll keep you in the loop with more updates, and we&apos;re always here for any questions or concerns you might have.
+            </p>
         </div>
     );
 }
