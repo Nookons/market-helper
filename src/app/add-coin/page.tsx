@@ -3,7 +3,7 @@ import CoinList from "@/components/coin-list/coin-list";
 import {ICoinResponse} from "@/types/Coin";
 
 async function getCoins(): Promise<ICoinResponse[]> {
-    const res = await fetch('http://localhost:3000/api/coin-list', { cache: 'no-store' });
+    const res = await fetch('https://market-helper.vercel.app/api/coin-list', { cache: 'no-store' });
     const data = await res.json();
     return data.data;
 }
